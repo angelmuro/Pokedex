@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Footer from './components/shared/Footer'
-import Home from './pages/Home'
+import Home from './Pages/Home'
 import Pokedex from './Pages/Pokedex'
 import PokedexById from './Pages/PokedexById'
-import ProtectedRoutes from "./pages/ProtectedRoutes"
+import ProtectedRoutes from "./Pages/ProtectedRoutes"
 
 function App() {
 

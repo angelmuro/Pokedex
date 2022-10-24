@@ -1,6 +1,5 @@
 import React from 'react'
 import FormHome from "../components/home/FormHome"
-import Footer from '../components/shared/Footer'
 import "./styles/home.css"
 
 const Home = () => {
