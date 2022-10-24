@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import {setUserNameGlobal} from "../../store/slices/UserName.slice"
+import {setUserNameGlobal} from "../../store/slices/userName.slice"
 
 const FormHome = () => {
 

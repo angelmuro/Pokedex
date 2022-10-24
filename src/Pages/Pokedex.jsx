@@ -7,7 +7,6 @@ import SelectByType from '../components/pokedex/SelectByType'
 import Header from './shared/Header'
 import "./styles/pokedex.css"
 import Pagination from '../components/pokedex/Pagination'
-import Footer from '../components/shared/Footer'
 
 const Pokedex = () => {
 
