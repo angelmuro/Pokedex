@@ -1,6 +1,7 @@
 .header {
     position: relative;
     padding-top: 100px;
+    max-width: 100%;
 }
 .header_red {
     background-color: var(--color-red);

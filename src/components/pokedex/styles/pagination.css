@@ -1,10 +1,10 @@
 .pagination {
     margin-left: auto;
     margin-right: auto;
-    width: max-content;
+    max-width: 90%;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content:center ;  
 }
 .pagination_container {
     display: flex;
@@ -13,7 +13,7 @@
 .pagination_prev,
 .pagination_next,
 .pagination_page {
-    width: 50px;
+    width: 30px;
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
