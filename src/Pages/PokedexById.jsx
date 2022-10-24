@@ -113,27 +113,29 @@ const PokedexById = () => {
       </article> 
       
       </div>
-      <div className='pokedexid__move-container'>
-        
+
+      <div className='pokedexid__move-container'>   
       <article className='pokedexid__move-article'>
         <div className='pokedexid__stats-title-container'>
-           <div className='pokedexid__stats-title'> <h1>Movements</h1></div>
-           <h2 className='pokedexid__ball'></h2>
+           <div className='pokedexid__move-title'> <h1>Movements</h1></div>
+           <h2 className='pokedexid__ball-ball'></h2>
            <div className='pokedexid__stats-ball'>
-            <img src="./public/images/pokedexbyid/pokeball.jpg" alt="" />
+             <img src="./public/images/pokedexbyid/pokeball.jpg" alt="" />
            </div>
         </div>   
+        
         <ul className='pokedexid__move'>
             {
                 pokemon?.moves.map(move => (
-                    <li className='pokedexid__moves'
+                    <li className='pokedex__move-name'
                     key={move.move.name} >
-                     {move.move.name}
+                      <span className='pokedexid__moves' > {move.move.name}</span>         
                     </li>
                 ))
             }
           </ul>    
-      </article>  
+      </article> 
+       
        </div>    
        <br />
        <br />
