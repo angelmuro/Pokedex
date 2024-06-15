@@ -1,13 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const userNameSlice = createSlice({
-  name: 'userName',
-  initialState: '',
+  name: "userName",
+  initialState: "",
   reducers: {
-    setUserNameGlobal: (state, action) => action.payload
-  }
-})
+    setUserNameGlobal: (state, action) => action.payload,
+  },
+});
 
-export const {setUserNameGlobal} = userNameSlice.actions
+export const { setUserNameGlobal } = userNameSlice.actions;
 
-export default userNameSlice.reducer
+export default userNameSlice.reducer;

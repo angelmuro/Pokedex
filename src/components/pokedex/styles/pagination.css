@@ -1,33 +1,32 @@
 .pagination {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content:center ;  
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .pagination_container {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 .pagination_prev,
 .pagination_next,
 .pagination_page {
-    width: 30px;
-    aspect-ratio: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 30px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pagination_active {
-    background-color: var(--color-red);
-    color: white;
-    border-radius: 10px;
+  background-color: var(--color-red);
+  color: white;
+  border-radius: 10px;
 }
 
-
 .pokedex__error {
-    position: absolute;
-    font-size: 20px;
-    padding: 30px;
+  position: absolute;
+  font-size: 20px;
+  padding: 30px;
 }
